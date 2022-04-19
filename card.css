@@ -1,0 +1,26 @@
+.parentCard{
+    margin-top: 50px;
+
+}
+.card img{
+    border-radius: 9px;
+}
+.card{
+    width: 320px;
+
+    margin: 0 auto;
+    text-align: center;
+     position: relative; /*this is for the card badge */
+}
+.card--stats{
+    text-align: center;
+}
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
